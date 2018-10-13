@@ -1,0 +1,88 @@
+<!-- RaizComponent: helloworld v1.0  -->
+
+<script type="text/javascript">
+	var Controller = (function(){	
+			function Controller(){	
+
+				var self = this;
+			
+				this.construct = function(container){}
+						
+				this.title = 'Raiz';
+
+				return this;
+			}
+
+			return new Controller;
+		})();
+
+</script>
+
+<style type="text/css">
+	raiz-component.helloworld{
+
+	}raiz-component.helloworld .line{
+		border:3px solid red;
+		background-color: #333;
+		display: table;
+		padding:10px 10px; 
+		position: relative;
+	}raiz-component.helloworld .line > div{
+		display: table-cell;
+		vertical-align: middle;
+		font-family: arial;
+		color: #fff;
+	}raiz-component.helloworld .line > div:first-child{
+		padding:0px 10px; 
+		background-image: url({component-url}/favicon.png);
+		background-size: 60%;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 32px;
+		width: 32px;
+		color: red;
+		font-size: 40px;
+	}raiz-component.helloworld .line > div:last-child{
+		padding: 0px 0px 0px 10px;
+	}raiz-component.helloworld .line > div ul{
+		padding: 0px;
+	}raiz-component.helloworld .line > div ul li{
+		display: inline-table;
+		list-style: none;
+	}raiz-component.helloworld .line > div ul li:nth-child(even){
+	}raiz-component.helloworld .line > div ul li:nth-child(even){
+		color: red;
+		font-size: 25px;
+		font-weight: bold;
+	}raiz-component.helloworld .line p{
+		color: #aaa;
+		font-size: 12px;
+		text-align: right;
+		padding: 5px;
+		margin: 0px;
+		position: absolute;
+		bottom: 0px;
+		right: 0px;
+	}
+</style>
+
+<script type="text/html">
+	<div class="line">
+	<div></div>
+	<div>
+		<ul>
+			<li>Hello World</li>
+			<li>Olá Mundo</li>
+			<li>שלום עולם</li>
+			<li>Bonjour le monde</li>
+			<li>Hola Mundo</li>
+			<li>こんにちは世界</li>
+			<li>Hallo Welt</li>
+			<li>你好，世界</li>
+			<li>Witaj świecie</li>
+		</ul>
+		<p>{{this.title}}</p>
+	</div>
+</div>
+	
+</script>

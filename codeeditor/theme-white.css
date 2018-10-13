@@ -1,0 +1,218 @@
+	
+	/* background editor */
+	.theme-white.codeeditor{
+		background-color: #fff;
+		color: #323230;
+	}
+
+	/*wrapper of editor*/
+	.theme-white .codeeditor-wrapper{
+		padding: 10px;
+	}
+
+	/* text of title */
+	.theme-white .header .title{
+		color: #aaa;
+		text-decoration: none;
+	}
+
+	/* Scroll bar*/
+	.theme-white.codeeditor .main::-webkit-scrollbar {
+	    width: 10px;
+	}
+	.theme-white.codeeditor .main::-webkit-scrollbar-track {
+	    -webkit-box-shadow: inset 0 0 0 10px #fff;
+	}
+	.theme-white.codeeditor .main::-webkit-scrollbar-thumb {
+	    -webkit-box-shadow: inset 0 0 0 10px #4283c5;
+	}
+
+
+	.theme-white.codeeditor .header{
+		background: #eee;
+		color:#666;
+	}
+	.theme-white.codeeditor .footer{
+		background: #eee;
+		padding: 5px;
+		color:#666;
+	}
+	
+	.areaCode{
+		text-align: left;
+	}
+
+	/* margin area code */
+	[data-numberlines='true'] .areaCode{
+		padding: 10px 9px 10px 70px;
+	}
+	/* margin area code without numberlines */
+	[data-numberlines='false'] .areaCode{
+		padding: 10px 9px 10px 10px;
+	}
+
+	/* background lines number */
+	.theme-white.codeeditor .main:not([data-numberlines='false']){
+		box-shadow: 60px 0 0 #fff inset,61px 0 0 #eee inset;
+	}
+	/* lines with numbers*/
+	.theme-white .bg{
+	}.theme-white .bg li{
+		color: #aaa;
+		text-align: left;
+	}.theme-white .bg li.focus{
+		
+	}.theme-white .bg li:nth-child(odd){
+		/*background-color: rgba(0,0,0,.03); */	
+	}
+
+	
+
+	.theme-white.codeeditor .content{
+		padding: 10px;
+	}
+
+
+
+
+
+
+
+
+
+
+	/* HTML ------------------------------------------------------- */
+	.theme-white .areaCode *{
+		color:  #444;	
+	}
+	.theme-white .areaCode .html.cm-bracket{
+		color:  #313131;
+	}.theme-white .areaCode .html.cm-tag{
+		color:  #ee6a43;
+	}.theme-white .areaCode .html.cm-attribute{
+		white-space: pre-wrap;
+	}.theme-white .areaCode .html.cm-attribute-key{
+		color:  #925da1;
+	}.theme-white .areaCode .html.cm-attribute-operator{
+		color:  #313131;
+	}.theme-white .areaCode .html.cm-attribute-value{
+		color:  #193791;
+	}
+
+	.theme-white .areaCode .html.tag-comment{
+		color: #bbb ;
+	}.theme-white .areaCode .html.tag-comment *{
+		color: #bbb !important;
+	}.theme-white .areaCode .html.tag-comment-block{
+		color: #bbb ;
+	}.theme-white .areaCode .html.tag-comment-block *{
+		color: #bbb !important;
+	}
+
+
+	/* JAVASCRIPT ------------------------------------------------------- */
+
+	.theme-white .areaCode .javascript.char-key{
+		color: #444;
+		font-weight: bold;
+	}.theme-white .areaCode .javascript.char-parentheses{
+		color: #444;
+	}
+
+	.theme-white .areaCode .javascript.word-func{
+		color: blue;
+		font-style: italic;	
+	}.theme-white .areaCode .javascript.word-func-name{
+		color: blue;
+		font-weight: bold;
+	}.theme-white .areaCode .javascript.word-func-name *{
+		color: blue !important;
+		font-weight: bold;
+	}.theme-white .areaCode .javascript.word-func-parameters{
+		color: #4ea800 ;
+		font-style: italic;
+	}.theme-white .areaCode .javascript.word-func-parameters *{
+		color: #4ea800 ;
+		font-style: italic;
+	}.theme-white .areaCode .javascript.word-if{
+		font-style: italic;
+		color: #d82651;
+	}.theme-white .areaCode .javascript.if-parameters{
+		font-style: italic;
+		color: #f36f20;
+	}.theme-white .areaCode .javascript.word-return{		
+		color: blue;
+		font-weight: bold;
+	}.theme-white .areaCode .javascript.tag-comment{
+		color: #666 ;
+	}.theme-white .areaCode .javascript.tag-comment *{
+		color: #666 !important;
+	}.theme-white .areaCode .javascript.tag-comment-block{
+		color: #666 ;
+	}.theme-white .areaCode .javascript.tag-comment-block *{
+		color: #666 !important;
+	}
+
+	.theme-white .areaCode .javascript.keyword{
+		color: blue;
+		font-style: italic;
+	}.theme-white .areaCode .javascript.keywordB{
+		color: red;
+	}.theme-monokai .areaCode .javascript.keywordC{
+		font-style: italic;
+		color: blue;
+	}
+
+	.theme-white .areaCode .javascript.string{		
+		color: #C8C060 ;
+	}.theme-white .areaCode .javascript.string *{		
+		color: #C8C060 ;
+	}.theme-white .areaCode .javascript.number{		
+		color: #9b3dde ;
+	}
+	
+
+
+
+
+	/* CSS ------------------------------------------------------- */
+
+
+	.theme-white .areaCode .css.selector-id{
+		color: blue;
+	}.theme-white .areaCode .css.selector-class{
+		color: blue;
+	}.theme-white .areaCode .css.selector-global{
+		color: blue;
+	}.theme-white .areaCode .css.selector-operator{
+		color: #555;
+	}
+
+	.theme-white .areaCode .css.char-key{
+		color: #444;
+		font-weight: bold;
+	}.theme-white .areaCode .css.key-name{
+		color: #355B9D;
+		font-style: italic;
+	}.theme-white .areaCode .css.key-value{
+		color: #4ea800;
+	}
+
+	.theme-white .areaCode .css.string{		
+		color: #C8C060 ;
+	}.theme-white .areaCode .css.string *{		
+		color: #C8C060;
+	}.theme-white .areaCode .css.number{		
+		color: #2973D5 ;
+	}
+	
+	.theme-white .areaCode .css.tag-comment{
+		color: #666 !important;
+	}.theme-white .areaCode .css.tag-comment *{
+		color: #666 !important;
+	}.theme-white .areaCode .css.tag-comment-block{
+		color: #666 !important;
+	}.theme-white .areaCode .css.tag-comment-block *{
+		color: #666 !important;
+	}
+

@@ -1,0 +1,249 @@
+	
+	/* background editor */
+	.theme-monokai.codeeditor{
+		background-color: #272822;
+		color: #e7e9db;
+	}
+
+	/*wrapper of editor*/
+	.theme-monokai .codeeditor-wrapper{
+		padding: 10px;
+	}
+
+	/* text of title */
+	.theme-monokai .header .title{
+		color: #d82651;
+	}
+
+	/* Scroll bar*/
+	.theme-monokai.codeeditor .main::-webkit-scrollbar {
+	    width: 10px;
+	}
+	.theme-monokai.codeeditor .main::-webkit-scrollbar-track {
+	    -webkit-box-shadow: inset 0 0 0 10px #222;
+	}
+	.theme-monokai.codeeditor .main::-webkit-scrollbar-thumb {
+	    -webkit-box-shadow: inset 0 0 0 10px #d82651;
+	}
+
+
+	.theme-monokai.codeeditor .header{
+		background: #111;
+		color:#999;
+	}
+	.theme-monokai.codeeditor .footer{
+		background: #171717;
+		padding: 5px;
+		color:#ccc;
+	}
+	
+	.areaCode{
+		text-align: left;
+	}
+	
+	/* margin area code */
+	[data-numberlines='true'] .areaCode{
+		padding: 10px 9px 10px 70px;
+	}
+	/* margin area code without numberlines */
+	[data-numberlines='false'] .areaCode{
+		padding: 10px 9px 10px 10px;
+	}
+
+	/* background lines number */
+	.theme-monokai.codeeditor .main:not([data-numberlines='false']){
+		box-shadow: 60px 0 0 #393939 inset
+	}
+	/* lines with numbers*/
+	.theme-monokai .bg{
+	}.theme-monokai .bg li{
+		color: #636363;
+		text-align: left;
+	}.theme-monokai .bg li.focus{
+		background-color: red !important;
+	}.theme-monokai .bg li:nth-child(odd){
+		/*background-color: rgba(0,0,0,.03); */	
+	}
+
+	
+
+	.theme-monokai.codeeditor .content{
+		padding: 10px;
+	}
+
+
+
+
+
+
+
+
+
+
+	/* HTML ------------------------------------------------------- */
+
+	.theme-monokai .areaCode *,.theme-monokai .areaCode{
+		color:  #eee;	
+	}.theme-monokai .areaCode .html.cm-bracket{
+		color:  #ccc;
+	}.theme-monokai .areaCode .html.cm-tag{
+		color:  #d82651;
+	}.theme-monokai .areaCode .html.cm-attribute{
+		white-space: pre-wrap;
+	}.theme-monokai .areaCode .html.cm-attribute-key{
+		color:  #94CC08;
+	}.theme-monokai .areaCode .html.cm-attribute-operator{
+		color:  #ccc;
+	}.theme-monokai .areaCode .html.cm-attribute-value{
+		color:  #C8C060;
+	}
+
+	.theme-monokai .areaCode .html.tag-comment{
+		color: #666 ;
+	}.theme-monokai .areaCode .html.tag-comment *{
+		color: #666 !important;
+	}.theme-monokai .areaCode .html.tag-comment-block{
+		color: #666 ;
+	}.theme-monokai .areaCode .html.tag-comment-block *{
+		color: #666 !important;
+	}
+
+
+	/* JAVASCRIPT ------------------------------------------------------- */
+
+	.theme-monokai .areaCode .javascript.char-key{
+		color: #ccc;
+	}.theme-monokai .areaCode .javascript.char-parentheses{
+		color: #ccc;
+	}
+
+	.theme-monokai .areaCode .javascript.word-func{
+		color: #61cfeb;
+		font-style: italic;	
+	}.theme-monokai .areaCode .javascript.word-func-name{
+		color: #94CC08;
+	}.theme-monokai .areaCode .javascript.word-func-name *{
+		color: #94CC08 !important;
+	}.theme-monokai .areaCode .javascript.word-func-parameters{
+		color: #f36f20 ;
+		font-style: italic;
+	}.theme-monokai .areaCode .javascript.word-function-parameters *{
+		color: #f36f20 ;
+		font-style: italic;
+	}.theme-monokai .areaCode .javascript.word-if{
+		font-style: italic;
+		color: #d82651;
+	}.theme-monokai .areaCode .javascript.if-parameters{
+		font-style: italic;
+		color: #f36f20;
+	}.theme-monokai .areaCode .javascript.word-return{		
+		color: #d82651;
+	}.theme-monokai .areaCode .javascript.tag-comment{
+		color: #666 ;
+	}.theme-monokai .areaCode .javascript.tag-comment *{
+		color: #666 !important;
+	}.theme-monokai .areaCode .javascript.tag-comment-block{
+		color: #666 ;
+	}.theme-monokai .areaCode .javascript.tag-comment-block *{
+		color: #666 !important;
+	}
+
+	.theme-monokai .areaCode .javascript.keyword{
+		color: #61cfeb;
+		font-style: italic;
+	}.theme-monokai .areaCode .javascript.keywordB{
+		color: #d82651;
+	}.theme-monokai .areaCode .javascript.objectreserved{
+		font-style: italic;
+		color: #e68505;
+	}.theme-monokai .areaCode .javascript.methodreserved{
+		font-style: italic;
+		color: #61cfeb;
+	}
+
+	.theme-monokai .areaCode .javascript.string{		
+		color: #C8C060 ;
+	}.theme-monokai .areaCode .javascript.string *{		
+		color: #C8C060 ;
+	}.theme-monokai .areaCode .javascript.number{		
+		color: #9b3dde ;
+	}
+	
+
+
+
+
+	/* CSS ------------------------------------------------------- */
+
+
+	.theme-monokai .areaCode .css.selector-id{
+		color: #CC08B2;
+	}.theme-monokai .areaCode .css.selector-class{
+		color: #94CC08;
+	}.theme-monokai .areaCode .css.selector-global{
+		color: #d82651;
+	}.theme-monokai .areaCode .css.selector-operator{
+		color: #ccc;
+	}
+
+	.theme-monokai .areaCode .css.char-key{
+		color: #ccc;
+	}.theme-monokai .areaCode .css.key-name{
+		color: #61cfeb;
+		font-style: italic;
+	}.theme-monokai .areaCode .css.key-value{
+		color: #f36f20;
+	}
+
+	.theme-monokai .areaCode .css.string{		
+		color: #C8C060 ;
+	}.theme-monokai .areaCode .css.string *{		
+		color: #C8C060;
+	}.theme-monokai .areaCode .css.number{		
+		color: #9b3dde ;
+	}
+	
+	.theme-monokai .areaCode .css.tag-comment{
+		color: #666 !important;
+	}.theme-monokai .areaCode .css.tag-comment *{
+		color: #666 !important;
+	}.theme-monokai .areaCode .css.tag-comment-block{
+		color: #666 !important;
+	}.theme-monokai .areaCode .css.tag-comment-block *{
+		color: #666 !important;
+	}
+
+
+
+	/* terminal ------------------------------------------------------- */
+
+	.theme-monokai .areaCode .terminal.cm-bracket{
+		color:  #ccc;
+	}.theme-monokai .areaCode .terminal.cm-tag{
+		color:  #d82651;
+	}.theme-monokai .areaCode .terminal.cm-attribute{
+		white-space: pre-wrap;
+	}.theme-monokai .areaCode .terminal.cm-attribute-key{
+		color:  #94CC08;
+	}.theme-monokai .areaCode .terminal.cm-attribute-operator{
+		color:  #ccc;
+	}.theme-monokai .areaCode .terminal.cm-attribute-value{
+		color:  #C8C060;
+	}
+
+	.theme-monokai .areaCode .terminal.tag-comment{
+		color: #666 ;
+	}.theme-monokai .areaCode .terminal.tag-comment *{
+		color: #666 !important;
+	}.theme-monokai .areaCode .terminal.tag-comment-block{
+		color: #666 ;
+	}.theme-monokai .areaCode .terminal.tag-comment-block *{
+		color: #666 !important;
+	}
+
+	.theme-monokai .areaCode .terminal.keyword{
+		color: #61cfeb;
+		font-style: italic;
+	}.theme-monokai .areaCode .terminal.keywordB{
+		color: #d82651;
+	}
